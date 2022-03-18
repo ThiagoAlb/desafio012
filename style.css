@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'PassionOne';
+    --fonte3: 'Sriracha-Regular';
+
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url('fontes/PassionOne-Bold.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha-Regular';
+    src: url('fontes/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    font-size: 4em;
+    text-transform: capitalize;
+}
+
+header > p {
+    font-family: 'PassionOne';
+    
+
+}
